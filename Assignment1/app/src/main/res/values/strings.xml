@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">COUNT_TO_ASGN1</string>
+    <string name="toastBtn">Toast</string>
+    <string name="countUpBtn">COUNT UP</string>
+    <string name="countDownBtn">COUNT DOWN</string>
+    <string name="numCounterTxtView">NUMBER</string>
+</resources>

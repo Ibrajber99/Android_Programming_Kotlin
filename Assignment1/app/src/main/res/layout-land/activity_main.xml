@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/countUpBtn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:text="@string/countUpBtn"
+        app:layout_constraintBottom_toTopOf="@+id/countDownBtn"
+        app:layout_constraintEnd_toStartOf="@+id/numberToShowTxtView"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toastBtn"
+        app:layout_constraintVertical_bias="0.551" />
+
+    <Button
+        android:id="@+id/toastBtn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/toastBtn"
+        app:layout_constraintEnd_toStartOf="@+id/numberToShowTxtView"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/countDownBtn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/countDownBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/numberToShowTxtView"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/numberToShowTxtView"
+        android:layout_width="463dp"
+        android:layout_height="295dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="28dp"
+        android:background="@color/teal_700"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/numCounterTxtView"
+        android:textSize="100sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

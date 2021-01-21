@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toastBtn">Toast</string>
+    <string name="countUpBtn">COUNT UP</string>
+    <string name="countDownBtn">COUNT DOWN</string>
+    <string name="numCounterTxtView">NUMBER</string>
+</resources>
